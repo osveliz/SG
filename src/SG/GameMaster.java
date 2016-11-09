@@ -13,7 +13,7 @@ import java.util.*;
 public class GameMaster {
 
 	private static boolean verbose = false; //Set to false if you do not want the details
-	private static int numGames = 10; //test with however many games you want
+	private static int numGames = 20; //test with however many games you want
 	private static ArrayList<GameModel> games = new ArrayList<GameModel>();
 	
 	/**

@@ -40,6 +40,7 @@ public abstract class Player{
      */
     public void setGame(int gameNumber){
     	this.gameNumber = gameNumber;
+    	setGame(new GameModel(gameNumber));
     }
     
     /**
