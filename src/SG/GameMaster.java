@@ -51,7 +51,7 @@ public class GameMaster {
 					defenderPayoffs[d] += payoffs[0];
 					attackerPayoffs[a] += payoffs[1];
 					defenderUtilities[d][a] += payoffs[0];
-					attackerUtilities[d][a] += payoffs[1];
+					attackerUtilities[a][d] += payoffs[1];
 					if(verbose) System.out.println(payoffs[0]);
 					if(verbose) System.out.println(payoffs[1]);
 				}
